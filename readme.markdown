@@ -1,4 +1,4 @@
-# json-stable-stringify
+# fst-stable-stringify (fork from json-stable-stringify)
 
 deterministic version of `JSON.stringify()` so you can get a consistent hash
 from stringified results
@@ -19,7 +19,7 @@ fork from https://github.com/substack/json-stable-stringify, and add some featur
 # example
 
 ``` js
-var stringify = require('json-stable-stringify');
+var stringify = require('fst-stable-stringify');
 var obj = { c: 8, b: [{z:6,y:5,x:4},7], a: 3 };
 console.log(stringify(obj));
 ```
@@ -33,7 +33,7 @@ output:
 # methods
 
 ``` js
-var stringify = require('json-stable-stringify')
+var stringify = require('fst-stable-stringify')
 ```
 
 ## var str = stringify(obj, opts)
@@ -55,7 +55,7 @@ opts.cmp({ key: akey, value: avalue }, { key: bkey, value: bvalue })
 For example, to sort on the object key names in reverse order you could write:
 
 ``` js
-var stringify = require('json-stable-stringify');
+var stringify = require('fst-stable-stringify');
 
 var obj = { c: 8, b: [{z:6,y:5,x:4},7], a: 3 };
 var s = stringify(obj, function (a, b) {
@@ -129,7 +129,7 @@ the same as the replacer
 With [npm](https://npmjs.org) do:
 
 ```
-npm install json-stable-stringify
+npm install fst-stable-stringify
 ```
 
 # license
