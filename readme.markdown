@@ -9,6 +9,13 @@ You can also pass in a custom comparison function.
 
 [![build status](https://secure.travis-ci.org/substack/json-stable-stringify.png)](http://travis-ci.org/substack/json-stable-stringify)
 
+# updates
+
+fork from https://github.com/substack/json-stable-stringify, and add some features:
+
+* add `toJSONStr` to support using injected for serialization method some properties
+  * difference from `toJSON`: `toJSONStr` returns a string directly
+
 # example
 
 ``` js

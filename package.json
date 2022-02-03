@@ -1,5 +1,5 @@
 {
-  "name": "json-stable-stringify",
+  "name": "fst-stable-stringify",
   "version": "1.0.1",
   "description": "deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results",
   "main": "index.js",
@@ -16,8 +16,10 @@
     "files": "test/*.js",
     "browsers": [
       "ie/8..latest",
-      "ff/5", "ff/latest",
-      "chrome/15", "chrome/latest",
+      "ff/5",
+      "ff/latest",
+      "chrome/15",
+      "chrome/latest",
       "safari/latest",
       "opera/latest"
     ]
